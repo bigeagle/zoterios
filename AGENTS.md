@@ -1,0 +1,2 @@
+- use `uv` to run python
+- use `uv run prek --all-files` for linting and formatting
