@@ -3,6 +3,7 @@
 import click
 
 from zoterios.commands.arxiv import arxiv
+from zoterios.commands.install_skill import install_skill
 from zoterios.commands.markdownit import markdownit
 from zoterios.commands.papers import papers
 from zoterios.commands.ping import ping
@@ -38,6 +39,7 @@ cli.add_command(ping)
 cli.add_command(papers)
 cli.add_command(arxiv)
 cli.add_command(markdownit)
+cli.add_command(install_skill)
 
 
 def main() -> None:
