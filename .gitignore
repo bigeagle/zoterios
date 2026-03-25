@@ -9,3 +9,8 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# temporary files
+.tmp
+.tmp/
+tmp/

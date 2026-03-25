@@ -7,10 +7,17 @@ authors = [
     { name = "Justin Wong", email = "justin.w.xd@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "click>=8.1",
+    "httpx>=0.28",
+    "markitdown[pdf]>=0.1",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "python-dotenv>=1.0",
+]
 
 [project.scripts]
-zoterios = "zoterios:main"
+zoterios = "zoterios.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.9.18,<0.10.0"]
