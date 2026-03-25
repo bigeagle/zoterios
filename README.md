@@ -17,6 +17,12 @@ uv tool install zoterios
 pip install zoterios
 ```
 
+To let AI agents (e.g. Kimi Code CLI) discover and use zoterios, install the skill definition:
+
+```bash
+zoterios install-skill ~/.config/agents/skills
+```
+
 ## Quick Start
 
 ```bash
